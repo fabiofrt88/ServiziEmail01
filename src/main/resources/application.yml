@@ -1,12 +1,14 @@
 spring:
   mail:
-    host: smtp.gmail.com
+    host: smtp.sendgrid.net
     port: 587
-    username: marcoverdidev@gmail.com
-    password: Password_123
+    username: fabiofra88@gmail.com
+    password: password
     properties:
       mail:
         smtp:
           auth: true
           starttls:
             enable: true
+
+apiKey: "myApiKey"
